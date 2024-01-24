@@ -1,0 +1,91 @@
+{
+  "odata.metadata":"https://rajapinnat.ymparisto.fi/api/vesla/2.0/odata/$metadata#Haju","value":[
+  {
+    "Haju_Id":1,"Lyhenne":"H","Selite":"Hajuton","SeliteRuo":null,"SeliteEng":"No odour","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":2,"Lyhenne":"L","Selite":"Liev\u00e4 tunnistamaton  haju","SeliteRuo":null,"SeliteEng":"Weak unidentified odour","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":3,"Lyhenne":"LFE","Selite":"Liev\u00e4 fenolin haju","SeliteRuo":null,"SeliteEng":"Weak odour of phenol","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":4,"Lyhenne":"LGL","Selite":"Liev\u00e4 glykolin haju","SeliteRuo":null,"SeliteEng":"Weak odour of glycol","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":5,"Lyhenne":"LHO","Selite":"Liev\u00e4 homemainen haju","SeliteRuo":null,"SeliteEng":"Weak odour of mould","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":6,"Lyhenne":"LKP","Selite":"Liev\u00e4 kaatopaikan haju","SeliteRuo":null,"SeliteEng":"Weak odour of dump","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":7,"Lyhenne":"LLA","Selite":"Liev\u00e4 lannan haju","SeliteRuo":null,"SeliteEng":"Weak odour of manure","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":8,"Lyhenne":"LLE","Selite":"Liev\u00e4 lev\u00e4n haju","SeliteRuo":null,"SeliteEng":"Weak odour of algae","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":9,"Lyhenne":"LMK","Selite":"Liev\u00e4 m\u00e4d\u00e4n kalan haju","SeliteRuo":null,"SeliteEng":"Weak odour of rotten fish","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":10,"Lyhenne":"LMT","Selite":"Liev\u00e4 maan tai turpeen haju","SeliteRuo":null,"SeliteEng":"Weak odour of peat","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":11,"Lyhenne":"LOL","Selite":"Liev\u00e4 \u00f6ljyn haju","SeliteRuo":null,"SeliteEng":"Weak odour of oil","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":12,"Lyhenne":"LPN","Selite":"Liev\u00e4 puristusnesteen haju","SeliteRuo":null,"SeliteEng":"Weak odour of fodder fluid","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":13,"Lyhenne":"LRV","Selite":"Liev\u00e4 rikkivedyn haju","SeliteRuo":null,"SeliteEng":"Weak odour of hydr. sulfide","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":14,"Lyhenne":"LSE","Selite":"Liev\u00e4 sellun haju","SeliteRuo":null,"SeliteEng":"Weak odour of pulp","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":15,"Lyhenne":"LYJ","Selite":"Liev\u00e4 yhdysk.j\u00e4teveden haju","SeliteRuo":null,"SeliteEng":"Weak odour of waste water","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":16,"Lyhenne":"S","Selite":"Selv\u00e4 tunnistamaton haju","SeliteRuo":null,"SeliteEng":"Distinct unidentified odour","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":17,"Lyhenne":"SFE","Selite":"Selv\u00e4 fenolin haju","SeliteRuo":null,"SeliteEng":"Distinct odour of phenol","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":18,"Lyhenne":"SGL","Selite":"Selv\u00e4 glykolin haju","SeliteRuo":null,"SeliteEng":"Distinct odour of glycol","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":19,"Lyhenne":"SHO","Selite":"Selv\u00e4 homemainen haju","SeliteRuo":null,"SeliteEng":"Distinct odour of mould","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":20,"Lyhenne":"SKP","Selite":"Selv\u00e4 kaatopaikan haju","SeliteRuo":null,"SeliteEng":"Distinct odour of dump","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":21,"Lyhenne":"SLA","Selite":"Selv\u00e4 lannan haju","SeliteRuo":null,"SeliteEng":"Distinct odour of manure","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":22,"Lyhenne":"SLE","Selite":"Selv\u00e4 lev\u00e4n haju","SeliteRuo":null,"SeliteEng":"Distinct odour of algae","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":23,"Lyhenne":"SMK","Selite":"Selv\u00e4 m\u00e4d\u00e4n kalan haju","SeliteRuo":null,"SeliteEng":"Distinct odour of rotten fish","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":24,"Lyhenne":"SMT","Selite":"Selv\u00e4 maan tai turpeen haju","SeliteRuo":null,"SeliteEng":"Distinct odour of peat","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":25,"Lyhenne":"SOL","Selite":"Selv\u00e4 \u00f6ljyn haju","SeliteRuo":null,"SeliteEng":"Distinct odour of oil","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":26,"Lyhenne":"SPN","Selite":"Selv\u00e4 puristusnesteen haju","SeliteRuo":null,"SeliteEng":"Distinct odour of fodder fluid","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":27,"Lyhenne":"SRV","Selite":"Selv\u00e4 rikkivedyn haju","SeliteRuo":null,"SeliteEng":"Distinct odour of hydr.sulfide","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":28,"Lyhenne":"SSE","Selite":"Selv\u00e4 sellun haju","SeliteRuo":null,"SeliteEng":"Distinct odour of pulp","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":29,"Lyhenne":"SYJ","Selite":"Selv\u00e4 yhdysk.j\u00e4teveden haju","SeliteRuo":null,"SeliteEng":"Distinct odour of waste water","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":30,"Lyhenne":"V","Selite":"Voimakas tunnistamaton haju","SeliteRuo":null,"SeliteEng":"Strong unidentified odour","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":31,"Lyhenne":"VFE","Selite":"Voimakas fenolin haju","SeliteRuo":null,"SeliteEng":"Strong odour of phenol","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":32,"Lyhenne":"VGL","Selite":"Voimakas glykolin haju","SeliteRuo":null,"SeliteEng":"Strong odour of glycol","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":33,"Lyhenne":"VHO","Selite":"Voimakas homemainen haju","SeliteRuo":null,"SeliteEng":"Strong odour of mould","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":34,"Lyhenne":"VKP","Selite":"Voimakas kaatopaikan haju","SeliteRuo":null,"SeliteEng":"Strong odour of dump","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":35,"Lyhenne":"VLA","Selite":"Voimakas lannan haju","SeliteRuo":null,"SeliteEng":"Strong odour of manure","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":36,"Lyhenne":"VLE","Selite":"Voimakas lev\u00e4n haju","SeliteRuo":null,"SeliteEng":"Strong odour of algae","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":37,"Lyhenne":"VMK","Selite":"Voimakas m\u00e4d\u00e4n kalan haju","SeliteRuo":null,"SeliteEng":"Strong odour of rotten fish","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":38,"Lyhenne":"VMT","Selite":"Voimakas maan tai turpeen haju","SeliteRuo":null,"SeliteEng":"Strong odour of peat","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":39,"Lyhenne":"VOL","Selite":"Voimakas \u00f6ljyn haju","SeliteRuo":null,"SeliteEng":"Strong odour of oil","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":40,"Lyhenne":"VPN","Selite":"Voimakas puristusnesteen haju","SeliteRuo":null,"SeliteEng":"Strong odour of fodder fluid","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":41,"Lyhenne":"VRV","Selite":"Voimakas rikkivedyn haju","SeliteRuo":null,"SeliteEng":"Strong odour of hydr. sulfide","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":42,"Lyhenne":"VSE","Selite":"Voimakas sellun haju","SeliteRuo":null,"SeliteEng":"Strong odour of pulp","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  },{
+    "Haju_Id":43,"Lyhenne":"VYJ","Selite":"Voimakas yhdysk.j\u00e4teveden haju","SeliteRuo":null,"SeliteEng":"Strong odour of waste water","AikaMuutos":"2024-01-19T02:34:08.187","Kayttaja":"ENV\\sqlserver"
+  }
+]
+}
