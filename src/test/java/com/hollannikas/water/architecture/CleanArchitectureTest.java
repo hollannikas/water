@@ -47,6 +47,4 @@ public class CleanArchitectureTest {
             .should()
             .beAnnotatedWith(DataEntity.class)
             .because("They can easily be confused with domain entities");
-
-
  }
