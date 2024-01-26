@@ -15,7 +15,7 @@ public class SmellScheduler {
         this.smellRefreshUseCase = smellRefreshUseCase;
     }
 
-    @Scheduled(fixedRate = 10*3600L)
+    @Scheduled(fixedRate = 10*36000L)
     public void tock() {
         smellRefreshUseCase.refreshSmells();
         logger.info("Smells were refreshed");
