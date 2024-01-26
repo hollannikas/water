@@ -9,12 +9,11 @@ import org.springframework.stereotype.Component;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.classes;
 import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 
-
 @AnalyzeClasses(packages = "com.hollannikas.water")
 public class CleanArchitectureTest {
 
     @ArchTest
-    public static final ArchRule use_cases_should_be_in_use_case_package = classes()
+    ArchRule use_cases_should_be_in_use_case_package = classes()
                 .that()
                 .haveSimpleNameEndingWith("UseCase")
                 .should()
@@ -22,7 +21,7 @@ public class CleanArchitectureTest {
                 .because("Use cases are the core of the business functionality");
 
     @ArchTest
-    public static final ArchRule use_case_entities_should_not_be_components = classes()
+    ArchRule use_case_entities_should_not_be_components = classes()
             .that()
             .resideInAPackage("com.hollannikas.water.entity")
             .should()
@@ -30,7 +29,7 @@ public class CleanArchitectureTest {
             .because("These are not database entities");
 
     @ArchTest
-    public static final ArchRule only_inwards = layeredArchitecture()
+    ArchRule only_inwards = layeredArchitecture()
             .consideringOnlyDependenciesInLayers()
             .layer("Domain model").definedBy("com.hollannikas.water.entity")
             .layer("Use cases").definedBy("com.hollannikas.water.usecase..")
@@ -41,7 +40,7 @@ public class CleanArchitectureTest {
             .because("Policies should not affect mechanisms");
 
     @ArchTest
-    public static final ArchRule data_access_objects_are_annotated = classes()
+    ArchRule data_access_objects_are_annotated = classes()
             .that()
             .resideInAPackage("com.hollannikas.water.gateway.persistence.repository.entity")
             .should()
