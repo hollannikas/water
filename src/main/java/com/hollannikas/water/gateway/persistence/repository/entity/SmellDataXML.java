@@ -11,11 +11,11 @@ import java.io.Serializable;
 
 @DataEntity
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class SmellData implements Serializable {
+public class SmellDataXML implements Serializable {
         @JsonProperty("value")
-        private SmellEntity[] smellEntities;
+        private SmellXML[] smellEntities;
 
-        public SmellEntity[] getSmellEntities() {
+        public SmellXML[] getSmellEntities() {
                 return smellEntities;
         }
 }
