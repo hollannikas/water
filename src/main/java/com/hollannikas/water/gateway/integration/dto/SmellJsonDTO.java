@@ -1,15 +1,15 @@
-package com.hollannikas.water.gateway.persistence.repository.entity;
+package com.hollannikas.water.gateway.integration.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.hollannikas.water.annotations.DataEntity;
+import com.hollannikas.water.annotations.DomainEntity;
 
 import java.io.Serializable;
 
 // https://rajapinnat.ymparisto.fi/api/vesla/2.0/odata/$metadata#Haju
-@DataEntity
+@DomainEntity
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class SmellXML implements Serializable {
+public class SmellJsonDTO implements Serializable {
 
     @JsonProperty("Haju_Id")
     private int hajuId;

@@ -1,6 +1,6 @@
 package com.hollannikas.water.architecture;
 
-import com.hollannikas.water.annotations.DataEntity;
+import com.hollannikas.water.annotations.DomainEntity;
 import com.tngtech.archunit.junit.AnalyzeClasses;
 import com.tngtech.archunit.junit.ArchTest;
 import com.tngtech.archunit.lang.ArchRule;
@@ -17,13 +17,13 @@ public class CleanArchitectureTest {
                 .that()
                 .haveSimpleNameEndingWith("UseCase")
                 .should()
-                .resideInAPackage("com.hollannikas.water.usecase")
+                .resideInAPackage("com.hollannikas.water.domain.usecase")
                 .because("Use cases are the core of the business functionality");
 
     @ArchTest
     ArchRule use_case_entities_should_not_be_components = classes()
             .that()
-            .resideInAPackage("com.hollannikas.water.entity")
+            .resideInAPackage("com.hollannikas.water.domain.entity")
             .should()
             .notBeAnnotatedWith(Component.class)
             .because("These are not database entities");
@@ -31,19 +31,19 @@ public class CleanArchitectureTest {
     @ArchTest
     ArchRule only_inwards = layeredArchitecture()
             .consideringOnlyDependenciesInLayers()
-            .layer("Domain model").definedBy("com.hollannikas.water.entity")
-            .layer("Use cases").definedBy("com.hollannikas.water.usecase..")
-            .layer("Gateways").definedBy("com.hollannikas.water.gateway..")
+            .layer("Domain model").definedBy("com.hollannikas.water.domain.entity")
+            .layer("Use cases").definedBy("com.hollannikas.water.domain.usecase")
+            .layer("Gateways").definedBy("com.hollannikas.water.controller..")
             .whereLayer("Domain model").mayNotAccessAnyLayer()
             .whereLayer("Use cases").mayOnlyAccessLayers("Domain model")
             .whereLayer("Gateways").mayOnlyAccessLayers("Domain model", "Use cases")
             .because("Policies should not affect mechanisms");
 
     @ArchTest
-    ArchRule data_access_objects_are_annotated = classes()
+    ArchRule domain_entities_are_annotated = classes()
             .that()
-            .resideInAPackage("com.hollannikas.water.gateway.persistence.repository.entity")
+            .resideInAPackage("com.hollannikas.water.domain.entity")
             .should()
-            .beAnnotatedWith(DataEntity.class)
-            .because("They can easily be confused with domain entities");
+            .beAnnotatedWith(DomainEntity.class)
+            .because("They can easily be confused with hibernate entities");
  }
